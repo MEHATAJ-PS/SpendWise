@@ -1,12 +1,12 @@
 # 💸 SpendWise - Personal Expense Tracker (Tkinter + CustomTkinter)
 
-SpendWise is a **desktop-based personal expense tracker** built using **Python**, **Tkinter**, and **CustomTkinter**, featuring secure login, file-based data storage, and beautiful visualizations including **Daily**, **Monthly**, **Yearly**, and **Pie** charts.
+**SpendWise** is a **desktop-based personal expense tracker** built using **Python**, **Tkinter**, and **CustomTkinter**, featuring secure login, file-based data storage, and beautiful visualizations including **Daily**, **Monthly**, **Yearly**, and **Pie** charts.
 
 ---
 
 ## 📌 Features
 
-- 🔐 Login & Signup system with secure password hashing
+- 🔐 Login & Signup system with secure password hashing  
 - ➕ Add expense entries with:
   - Amount
   - Category
@@ -23,19 +23,18 @@ SpendWise is a **desktop-based personal expense tracker** built using **Python**
 
 ## 📁 Project Structure
 
+```
 SpendWise/
-├── charts/ # Contains generated chart images
-├── data/ # Stores user data and expense data in CSV
-├── images/ # UI screenshots (used in README)
-├── auth.py # Handles login and signup logic
-├── dashboard.py # Dashboard interface and logic
-├── charts.py # Chart generation functions
-├── main.py # App entry point
-├── LICENSE # MIT License
-└── README.md # Project documentation
-
-yaml
-Copy code
+├── charts/          # Contains generated chart images
+├── data/            # Stores user data and expense data in CSV
+├── images/          # UI screenshots (used in README)
+├── auth.py          # Handles login and signup logic
+├── dashboard.py     # Dashboard interface and logic
+├── charts.py        # Chart generation functions
+├── main.py          # App entry point
+├── LICENSE          # MIT License
+└── README.md        # Project documentation
+```
 
 ---
 
@@ -44,42 +43,60 @@ Copy code
 ### 🔧 Requirements
 
 - Python 3.11.x  
-> ❌ **Python 3.13 is not supported by CustomTkinter**
+> ⚠️ **Note:** CustomTkinter **does not support Python 3.13 or later.**
 
 ### 📦 Install Dependencies
 
 ```bash
 pip install customtkinter matplotlib pandas
-▶️ Run the App
-bash
-Copy code
+```
+
+### ▶️ Run the App
+
+```bash
 python main.py
-📷 Screenshots
-🏠 Homepage
+```
 
-➕ Add Expense
+---
 
-📅 Daily Chart
+## 📷 Screenshots
 
-📆 Monthly Chart
+### 🏠 Homepage  
+![Homepage](images/homepage.png)
 
-📉 Yearly Chart
+### ➕ Add Expense  
+![Add Expense](images/add_expense.png)
 
-🥧 Pie Chart
+### 📅 Daily Chart  
+![Daily Chart](images/daily_chart.png)
 
-📜 License
-This project is licensed under the MIT License.
+### 📆 Monthly Chart  
+![Monthly Chart](images/monthly_chart.png)
 
-🙋‍♂️ Author
-Mehataj P S
+### 📉 Yearly Chart  
+![Yearly Chart](images/yearly_chart.png)
 
-💼 LinkedIn
+### 🥧 Pie Chart  
+![Pie Chart](images/pie_chart.png)
 
-💻 GitHub
+---
 
-🚀 Future Improvements
-Export reports to Excel / PDF
+## 📜 License
 
-Budget tracking and spending alerts
+This project is licensed under the [MIT License](./LICENSE).
 
-Web or Mobile version using Flask/React or Kivy
+---
+
+## 🙋‍♂️ Author
+
+**Mehataj P S**  
+- 💼 [LinkedIn](https://www.linkedin.com/in/MEHATAJ-PS)  
+- 💻 [GitHub](https://github.com/MEHATAJ-PS)
+
+---
+
+## 🚀 Future Improvements
+
+- 📤 Export reports to Excel / PDF  
+- 💡 Budget tracking and spending alerts  
+- 🌐 Web or Mobile version using Flask/React or Kivy  
