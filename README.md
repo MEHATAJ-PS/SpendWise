@@ -62,22 +62,22 @@ python main.py
 ## 📷 Screenshots
 
 ### 🏠 Homepage  
-![Homepage](images/homepage.png)
+[Homepage](images/homepage.png)
 
 ### ➕ Add Expense  
-![Add Expense](images/add_expense.png)
+[Add Expense](images/add_expense.png)
 
 ### 📅 Daily Chart  
-![Daily Chart](images/daily_chart.png)
+[Daily Chart](images/daily_chart.png)
 
 ### 📆 Monthly Chart  
-![Monthly Chart](images/monthly_chart.png)
+[Monthly Chart](images/monthly_chart.png)
 
 ### 📉 Yearly Chart  
-![Yearly Chart](images/yearly_chart.png)
+[Yearly Chart](images/yearly_chart.png)
 
 ### 🥧 Pie Chart  
-![Pie Chart](images/pie_chart.png)
+[Pie Chart](images/piechart.png)
 
 ---
 
